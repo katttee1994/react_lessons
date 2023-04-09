@@ -1,0 +1,23 @@
+.Dog {
+    color:rgb(102, 128, 0);
+    background-color: antiquewhite;
+}
+
+/* jeżeli wpiszemy bez nazwania konkretnie tylko napiszemy div (tak jak przyklad ponizej)- 
+to zmieni nam wszystkie divy gdzie tylko bedziemy tego używać. Jezeli w pliku Dog.js będzie 
+tylko 1 div i chcemy miec takie tlo,to bedzie sie zgadzac, ale jak tylko dodamy inne 
+div to ono tez bedzie miało taki kolor tła.Musimy uzyc specyficznej klasy (lub 
+innego CSS selectors) jak powyzej 
+zeby nam to dobrze dzialalo albo stwrzyc kolejna jak .Dog1
+div {
+    background-color: aqua;
+}*/
+
+.Dog-img {
+    width: 200px;
+}
+
+.Dog1 {
+    color:blueviolet;
+    background-color: bisque;
+}
