@@ -1,4 +1,5 @@
 .Pokecard {
     border: 2px solid mediumaquamarine;
     width: 250px;
+    text-align: center;
 }
