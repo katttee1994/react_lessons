@@ -25,8 +25,12 @@ class Form extends Component {
       <div>
         <h1>Form Demo</h1>
         <form onSubmit={this.handleSubmit}>
+          {/* sprawia ze przy forlumarzu do wypelnienia
+            jest jakby opis co mamy wpisac. i piszemy htmlFor bo samo for jest dla js */}
+          <label htmlFor="username">Username</label>
           <input
             type="text"
+            id="username"
             value={this.state.username}
             onChange={this.handleChange}
           />

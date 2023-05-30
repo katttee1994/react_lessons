@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Form from "./Form";
+import MultipleForm from "./MultipleForm";
 import "./App.css";
 
 class App extends Component {
@@ -7,9 +8,10 @@ class App extends Component {
     return (
       <div className="App">
         <Form />
+        <MultipleForm />
       </div>
     );
   }
 }
 
-export default Form;
+export default App;
